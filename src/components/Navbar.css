@@ -1,0 +1,136 @@
+
+.navbar{
+    background-color: #819cbb;  
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    margin-bottom:auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   }
+   
+   .menu-bars{
+       margin-left: 2rem;
+       font-size: 2rem;
+       background: none;
+      
+      
+       }
+   
+   .nav-menu{
+       border: thick double #446285;
+       background-color: #819cbb;
+       width: 230px;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       position: fixed;
+       transition: 850ms;
+       top:0;
+       left: -100%;
+       z-index: 100;
+   
+     }
+     
+   
+   
+   
+   
+   .nav-menu.active{
+   
+       left: 0;
+       transition: 350ms;
+   }
+   
+   .nav-text {
+       display: flex;
+       justify-content:flex-start;
+       align-items: center;
+       padding: 8px 0px 8px 16px;
+       list-style: none;
+       height: 60px;
+       margin-left: 3px;
+       font-size: 20px;
+       
+   }
+   .nav-taxt a {
+       text-decoration: none;
+       color: #e2e2e2;
+       height: 100%;
+       width: 95%;
+       display: flex;
+       align-items: center;
+       padding: 0 16px;
+       border-radius: 4px ;
+      
+   } 
+   
+   .nav-text a:hover {
+       font-size: 35px;
+     }
+   
+     .nav-menu-items{
+       width: 100%;
+     
+     }
+     
+   
+     .navbar-toggle {
+       width: 100%;
+       height: 80px;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+     }
+   
+     span{
+       margin-left: 16px;
+     }
+
+
+     .logout{
+       cursor: pointer;
+      margin-left: 35rem;
+      width: 30px;
+      height: 30px;
+     }
+
+     .signUp{
+      float: right;
+      cursor: pointer;
+      margin-left: 65rem;
+      background-color: #bb81ae;
+      color: white;
+      border:white;
+      padding:8px 8px 8px 8px;
+      text-align:right;
+      font-size: medium;
+      
+     }
+     
+     .Login{
+      float: right;
+      cursor: pointer;
+      margin-left: 10px;
+      background-color: #81bba8;
+      color: white;
+      border:white;
+      padding:8px 8px 8px 8px;
+      text-align:right;
+      font-size: medium;
+      
+     }
+   
+     .title{
+       color: rgba(220, 207, 231, 0.678);
+       margin-left: 35rem;
+       margin-right: 0%;
+       font-size: 30px;
+       font-family: 'Pacifico', cursive;
+     }
+   
+   
+     
+   
